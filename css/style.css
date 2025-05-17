@@ -46,4 +46,37 @@ p{
 }
 .magazine-contents{
     display: flex;
+    justify-content: space-between;
+    
+}
+.magazine-content{
+    width: 49%;
+    position: relative;
+}
+.magazine-content img{
+    max-width: 100%;
+}
+.text{
+    max-width: 290px;
+    margin: 0 auto;
+    background-color:  rgba(0,0,0,0.5);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 15px 0px;
+}
+.text-title{
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.magazine-content p{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 17px;
 }
