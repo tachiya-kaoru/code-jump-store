@@ -28,6 +28,7 @@ header{
 .wrapper{
     max-width: 1200px;
     padding: 0 5%;
+    margin: 0 auto;
 }
 
 h2{
@@ -35,14 +36,23 @@ h2{
    font-weight: bold;
    font-family: Arial;
    color: #24292E;
+   line-height: 28px;
 }
 p{
     font-size: 14px;
     color: #24292E;
-    line-height: 17px;
+    line-height: 20px;
+    font-family: Meiryo;
+}
+.title-text{
+    font-weight: 550;
+}
+
+.magazine-contents{
+    margin-top: 41px;
 }
 .section-title{
-    margin-bottom:23px ;
+    margin-bottom:21px ;
 }
 .magazine-contents{
     display: flex;
@@ -52,6 +62,7 @@ p{
 .magazine-content{
     width: 49%;
     position: relative;
+    display: inline-block;
 }
 .magazine-content img{
     max-width: 100%;
@@ -73,10 +84,15 @@ p{
     font-size: 20px;
     text-decoration: none;
     margin-bottom: 5px;
+    line-height: 23px;
 }
 .magazine-content p{
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-    line-height: 17px;
+    line-height: 20px;
+    
+}
+.magazine-content:hover{
+opacity: 0.7;
 }
