@@ -50,6 +50,7 @@ p{
 
 .magazine-contents{
     margin-top: 41px;
+    margin-bottom: 80px;
 }
 .section-title{
     margin-bottom:21px ;
@@ -96,3 +97,31 @@ p{
 .magazine-content:hover{
 opacity: 0.7;
 }
+
+/*fashon*/
+
+#fashion{
+    text-align: center;
+    background-image:url(../img/fashion.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:520px;   
+    background-position: center;
+    margin-bottom: 80px;
+}
+.fashion-contents h2{
+    padding-top: 60px;
+}
+.btn{
+    border:1px solid #2A2A2A; 
+    padding: 16px 36px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #24292E;
+    font-family: Meiryo;
+}
+.btn:hover{
+    opacity: 0.7;
+    }
