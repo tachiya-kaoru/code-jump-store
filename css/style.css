@@ -176,6 +176,7 @@ footer{
 .content{
     width: 33%;
     color: #FFFFFF;
+    
 }
 ul{
     list-style: none;
@@ -194,10 +195,12 @@ ul{
 .copyright{
     text-align: center;
     font-size: 11px;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 30px;
     color: #24292E;
-    font-family: meiryo;    
+    font-family: meiryo;
+    background-color: #FFFFFF;
+    
 }
 
 .footer-contents .content img:hover{
